@@ -34,6 +34,8 @@ Read first: `docs/vision.md`, `docs/styleguide.md`. Decisions: `docs/adr/`.
 
 - **Pulse**: one comment on a PR: where the plan stands, one open issue that matters, one
   recommendation.
+- **Test writer**: an agent CI wakes on every push to a PR. It writes the test the change needs
+  and commits it. Its instructions: `docs/agents/test-writer.md`.
 
 ## Skills
 

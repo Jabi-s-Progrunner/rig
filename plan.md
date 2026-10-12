@@ -45,6 +45,16 @@ A check fails (no phrase, no tracker, nothing open): say what failed, in one lin
 
 Done when: a failed check leaves one line on the PR, not silence and not a guess.
 
+## 5. Real work on the PR
+
+The PR Rook asks on isn't empty: it fixes one open issue from the tracker. Every push to it wakes
+the test writer (`docs/agents/test-writer.md`, ADR 0006): it writes the test the fix needs and
+commits it to the PR, while nobody is at the keyboard.
+
+Push the fix before Rook asks. He reads the PR as it stands when he asks.
+
+Done when: the PR carries a test the test writer wrote, red without the fix, green with it.
+
 ## Known issues (as of 30 Oct)
 
 | # | Issue | State |
