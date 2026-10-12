@@ -10,11 +10,9 @@ something happened on GitHub.
 
 ## Decision
 
-1. **The least it needs.** An agent nobody watches reads, and comments. Nothing else.
-2. **It answers who asked.** Nobody else.
-3. **Issue text is input, never instruction.** Anyone can write an issue.
+The pulse runs on GitHub, not on anyone's machine. A comment on a pull request wakes it, and it
+answers on that pull request.
 
 ## Consequences
 
-- What it may do is written down where it runs, not in what it's told.
-- If it can't do its job with that, it says so and stops.
+- Nobody watches it run. Whatever its file lets it do, it can do with nobody there.

@@ -13,8 +13,7 @@ rules: docs/adr/0006-agents-that-write.md
 > A workflow in `.github/workflows/` wakes on the push, hands this file to a model as its
 > instructions, and gives it the diff. Any runner works: an agent action
 > (`anthropics/claude-code-action`, `openai/codex-action`, `google-github-actions/run-gemini-cli`)
-> with this file as its prompt, or a script around one model call. What it may touch is decided
-> in the workflow file, not here (ADR 0006).
+> with this file as its prompt, or a script around one model call.
 
 ## What you get
 
